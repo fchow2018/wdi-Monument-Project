@@ -1,0 +1,14 @@
+.row, .column {
+
+}
+
+.row {
+	/* Let's add a border so we can see our rows better */
+	border: 1px solid #000;
+}
+
+.column {
+	/* Let's add another broder so we can use our columns better */
+	border: 1px solid #ff0000;
+	float: left;
+}

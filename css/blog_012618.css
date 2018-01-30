@@ -1,0 +1,308 @@
+body {
+	font-family: Helvetica;
+	/*width: 100%;*/
+}
+
+/** {
+	box-sizing: border-box;
+}*/
+
+/* Main */
+
+/*main {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 90%;
+}
+*/
+
+
+.column-1 img { 
+	width: 90%;
+	/*width: 100%;*/ /* For responsive design, but doesn't work */
+	height: auto;
+}
+
+.column-1 p {
+	/*width: 100%;*/ /* For responsive design, but doesn't work */
+	width: 92%;
+	margin-bottom: 50px;
+}
+
+/*main .column-2 {
+	/*width:10%;
+}*/
+
+.column-2 h3 {
+	width: 23%;
+	padding-top: 50px;
+	padding-right: 350px;
+}
+
+.column-2 p {
+	width: 50%;
+}
+
+.column-2 img {
+	width: 50%;
+	height: auto;
+	padding-top: 25px;
+	margin-bottom: 50px;
+}
+
+.magazine_issues {
+	padding-top: -50px;
+}
+
+/* Header*/ 
+
+/*#hamburger {
+	display: none;
+	margin-left: .5em;
+	color: white;
+}
+
+header {
+	margin: 0 auto;
+	background-image: url("images/blog_header_bg.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%; 
+}
+
+header nav {
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 7em;
+	background-color: white;
+	padding-bottom: .5em;
+	position: fixed;
+	width: 100%;
+}*/
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 13px;
+	font-size: 40px;
+	margin: -270px 11px 200px 0;
+	color: #FFFFFF;
+}
+
+h2 {
+	text-transform: uppercase;
+	padding-left: 150px;
+}
+
+h3 {
+	justify content: flex-start; 
+	padding-left: 150px;
+	font-size: 16px;
+}
+
+h4 {
+	padding-left: 150px;
+}
+
+h2, h3, h4 {
+	color: #46555F;
+}
+
+p {
+	padding-left: 150px;
+	font-size: 12px;
+	color: #848F95;
+	font-weight: bold;
+	width: 50%;
+	line-height: 17px;
+}
+
+/* Navigation */
+
+nav {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 10px 100px 0 10px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: #839EAF;
+	font-weight: bold;
+	font-size: 15px;
+	padding-right: 90px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+ul {
+	padding-left: 165px;
+}
+
+ul li {
+	color: #7C99AB;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+img {
+	padding-left: 150px;
+	width: 50%;
+	height: 50%;
+}
+
+.header_image img {
+	padding: 20px 0px 50px;
+	width: 100%;
+	height: 110%;
+
+	width: 100%;
+	height: auto;
+}
+
+/*Two-columns*/ 
+
+.container {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 100%;
+}
+
+
+/* Contact Form */
+.feedback {
+	margin: 0 auto; 
+	margin-top: 90px;
+	margin-right: 0px;
+	margin-bottom: 100px;
+	margin-left: 250px;
+	width: 100%;
+}
+
+.feedback h3 {
+	text-transform: uppercase;
+}
+
+.name {
+	font-size: 10px;
+	border: 1.5px solid black;
+	margin-bottom: 10px;
+	margin-left: -85px;
+	margin-right: 5px;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	padding: 7px 290px 7px 5px;
+}
+
+.email {
+	font-size: 10px;
+	border: 1.5px solid black;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	padding: 7px 290px 7px 5px;
+}
+
+.comment {
+	font-size: 10px;
+	border: 1.5px solid black;
+	padding: 7px;
+	margin-left: -85px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-family: Helvetica;
+}
+
+.submit {
+	font-size: 10px;
+	margin-left: -85px;
+	padding-top: 7px;
+	padding-left: 585px;
+	padding: 7px 290px 7px 862px;
+	border: 1.5px solid black;
+	background-color: white;
+	text-transform: uppercase;
+	font-family: Helvetica;
+}
+
+/* Footer */
+
+footer {
+	padding-top: 5px;
+	text-align: center;
+	background-color: #CDF3F6;
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer a {
+	text-decoration: none;
+	color: #848F95;
+	font-size: 17px;
+	position: relative;
+}
+
+.socialmediaicons {
+	margin-right: -60px;
+}
+
+footer img {
+	padding: 15px 15px 30px 20px;
+	width: 2%;
+	height: 6%;
+}
+
+footer p {
+	/*position: fixed;*/
+	font-size: 18px;
+	margin-left: 160px;
+}
+
+.subscription {
+	/*position: fixed;*/
+	margin-left: 250px;
+}
+
+.subscription input {
+	border: none;
+	padding: 10px 85px 10px 85px;
+	margin: -500px -350px;
+}
+
+.subscription input::placeholder {
+	font-family: Helvetica;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.subscription button {
+	border: 2px solid black;
+	background-color: #CDF3F6;
+	padding: 8px 30px 8px 30px;
+	margin: -300px -150px 50px 370px;
+}
+
+hr {
+	border: 1.5px solid black;
+}
+
+/* media query */
+
+@media only screen and (max-width: 560px) {
+.header_image img {
+	/*padding: 20px 0px 50px;*/
+	/*width: 50%;
+	height: 55%;*/
+	/*width: 100%;
+	height: auto;*/
+
+}
+

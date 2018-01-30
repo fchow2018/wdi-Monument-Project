@@ -1,0 +1,24 @@
+p{ color: #ffffff;
+   background-color: #007889;
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: bold;
+   text-align: center;
+   }
+
+#jumbo-joe{
+  font-style: italic;
+  font-size: 30px;
+}
+
+.random{
+  font-family: Times New Roman;
+}
+
+section{
+  color: red;
+}
+
+.active{
+  font-weight: bold;
+}
